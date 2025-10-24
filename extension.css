@@ -1,0 +1,44 @@
+        .player>.dfpj-shunfaanniu {
+            display: block;
+            position: absolute;
+            left: calc(10%);
+            top: calc(15%);
+            width: 32px;
+            height: 32px;
+            background-image: url('holycup.webp');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            z-index: 130;
+            cursor: pointer;
+            font-size: 15px;
+            font-family: 'xinwei';
+            text-align: center;
+            color: white;
+        }
+
+        .xtsaber {
+            background-image: url(turntable-bg.jpg);
+            width: 650px;
+            height: 600px;
+        }
+
+        .xtturntable {
+            background-image: url(turntable.png);
+            position: absolute;
+            z-index: 5;
+            top: 60px;
+            left: 116px;
+            width: 450px;
+            height: 450px;
+            transition: all 4s;
+        }
+
+        .xtpointer {
+            background-image: url('pointer.png');
+            position: absolute;
+            width: 174px;
+            height: 228px;
+            z-index: 10;
+            top: 155px;
+            left: 247px;
+        }
